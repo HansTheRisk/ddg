@@ -1,11 +1,12 @@
 
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/en/9/99/Ulster_University_Logo.png"></p>
 
-    1. [Welcome!](https://github.com/pjhampton/ddg#Welcome)
-    2. [Getting Started](https://github.com/pjhampton/ddg#getting-started)
-    3. [Talk with other contributors](https://github.com/pjhampton/ddg#talk-with-other-contributors)
-    4. [Special thanks!](https://github.com/pjhampton/ddg#special-thanks)
-    5. [Keep in contact]()
+  1. [Welcome!](https://github.com/pjhampton/ddg#Welcome)
+  2. [Getting Started](https://github.com/pjhampton/ddg#getting-started)
+  3. [Talk with other contributors](https://github.com/pjhampton/ddg#talk-with-other-contributors)
+  4. [Special thanks!](https://github.com/pjhampton/ddg#special-thanks)
+  5. [Keep in contact](https://github.com/pjhampton/ddg#keep-in-contact)
+  6. [Cheat Sheet Template](https://github.com/pjhampton/ddg#cheat-sheet-template)
 
 ### Welcome!
 
@@ -35,5 +36,54 @@ Cheat Sheets are a simple overview of a particular topic. I have noticed they ar
 
 ### Keep in contact!
 
- - My email (PJ Hampton): hampton-p1@email.ulster.ac.uk
+ - My email (Pete Hampton): hampton-p1@email.ulster.ac.uk
+
+### Cheat Sheet Template
+
+```
+{
+    "id": "<: $ia_id :>_cheat_sheet",
+    "name": "<: $ia_name_separated :>",
+    "description": "displayed as subtitle of the AnswerBar; optional",
+
+    "metadata": {
+        "sourceName": "displayed at the bottom of the AnswerBar; optional",
+        "sourceUrl" : "https://url.to.the.source"
+    },
+
+    "aliases": [
+        "first alias", "second alias", "etc"
+    ],
+
+    "template_type": "one of: code, keyboard, language, link, reference, terminal",
+
+    "section_order": [
+        "First Section",
+        "Second Section"
+    ],
+
+    "sections": {
+        "First Section": [
+            {
+                "key": "Key 1.1",
+                "val": "Value 1.1"
+            },
+            {
+                "key": "Key 1.2",
+                "val": "Value 1.2"
+            }
+        ],
+        "Second Section": [
+            {
+                "key": "Key 2.1",
+                "val": "Value 2.2"
+            },
+            {
+                "key": "Key 2.2",
+                "val": "Value 2.2"
+            }
+        ]
+    }
+}
+```
 
