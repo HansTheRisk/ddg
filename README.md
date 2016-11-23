@@ -21,11 +21,13 @@ Support for this event has been overwelming with students registering and staff 
 Many of you girls / guys will be new to open source, and that's absolutely amazing! Some of the most important software in this world is Open Source. Getting started is always the hardest part. In order to get you started contributing as soon as possible, we've created a load of potential cheat sheets to work
 on. See the [issues tab](https://github.com/pjhampton/ddg/issues). 
 
+The link for DuckDuckGo's codio is: 
+
 
 ### Your first PR
 
 Cheat Sheets are a simple overview of a particular topic. I conjecture that they are a good way to incubate new contributors to DuckDuckHack and open source in general. They take about 40 - 120 minutes to create. 
-This will get you comfortable with [git](https://git-scm.com/), [Github](https://github.com/) and [Codio](https://codio.com/).
+This will get you comfortable with [git](https://git-scm.com/), [Github](https://github.com/) and [Codio](https://codio.com/). Don't forget to create an IA page at [https://duck.co/ia](https://duck.co/ia).
 
 
 ### Your next PR
